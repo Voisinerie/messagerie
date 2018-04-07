@@ -6,4 +6,4 @@ services:
     ports:
       - "4000:4000"
     volumes:
-      - "./app:/go/src/github.com/Voisinerie/messagerie/app"
+      - "./server/app:/go/src/github.com/Voisinerie/messagerie/app"
